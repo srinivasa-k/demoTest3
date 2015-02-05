@@ -3,8 +3,35 @@
 /demoTest3>git add pom.xml src/
 /demoTest3>git commit -m "first code file"
 /demoTest3>git remote add origin https://github.com/ashishsharma3/demotTest3.git
+*origin is a tag for the url
 /demoTest3>git remote
 origin
 /demoTest3>git push -u origin master
-enter credentials
-local code is synced with remote origin
+*enter credentials
+*local code is synced with remote origin
+>git branch
+shows that git is pointing to master branch
+>git pull
+update local with master
+>git checkout -b branch1 master
+create new branch "branch1" out of master
+>git branch
+shows "master", "branch1" and active as branch1
+>git checkout master
+*swiches active branch to "master"
+>git checkout branch1
+*swiches active branch to "branch1"
+>git push -u origin branch1 -v
+*pushes branch to the remote repository. after this you can see the new branch in the remote repository
+>git add test.txt
+*add a new file to staging
+>git commit -m "added test case"
+/demoTest3>git push -u origin branch1 -v
+*enter credentials
+*local code is synced with remote origin
+>git checkout master
+*swiches active branch to "master"
+>git merge branch1
+*branch changes are merged with master
+demoTest3>git push -u origin master
+*local code is synced with remote origin
