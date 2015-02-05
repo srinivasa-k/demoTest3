@@ -1,0 +1,10 @@
+/demoTest3>git init
+/demoTest3>git status
+/demoTest3>git add pom.xml src/
+/demoTest3>git commit -m "first code file"
+/demoTest3>git remote add origin https://github.com/ashishsharma3/demotTest3.git
+/demoTest3>git remote
+origin
+/demoTest3>git push -u origin master
+enter credentials
+local code is synced with remote origin
